@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EliminaciÃ³n de Cuenta y Datos | Nexo - TotecXLabs</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #00c896;
+      --accent-soft: rgba(0, 200, 150, 0.12);
+      --danger: #f85149;
+      --danger-soft: rgba(248, 81, 73, 0.12);
+      --link: #58a6ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px 28px;
+    }
+    h1, h2, h3 { color: var(--heading); }
+    h1 { margin-top: 0; font-size: 1.8rem; border-bottom: 1px solid var(--border); padding-bottom: 16px; }
+    h2 { font-size: 1.3rem; color: var(--accent); margin-top: 1.8em; }
+    .badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .danger-box {
+      background: var(--danger-soft);
+      border: 1px solid var(--danger);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+      color: #ffb4a9;
+    }
+    .step-card {
+      background: #21262d;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .step-num {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      background: var(--accent);
+      color: #000;
+      font-weight: bold;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+    th { background: #21262d; color: var(--heading); }
+    .footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: #8b949e;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Nexo Â· GestiÃ³n de Cuenta</div>
+    <h1>Solicitud de EliminaciÃ³n de Cuenta y Datos</h1>
+
+    <!--
+      VARIABLES A COMPLETAR ANTES DE SUBIR A PRODUCCIÃ“N:
+      contacto@totecxlabs.com -> Correo oficial de soporte de TotecXLabs (ej. soporte@totecxlabs.com)
+    -->
+
+    <p>
+      En <strong>Nexo</strong> y <strong>TotecXLabs</strong> reconocemos tu derecho fundamental a la soberanÃ­a de tus datos y a la cancelaciÃ³n inmediata de tu informaciÃ³n personal.
+    </p>
+
+    <div class="danger-box">
+      <strong>Aviso de acciÃ³n irreversible:</strong> La eliminaciÃ³n de tu cuenta es permanente. PerderÃ¡s de manera definitiva tu perfil, tus coincidencias, tus conversaciones y la configuraciÃ³n personalizada.
+    </div>
+
+    <h2>OpciÃ³n 1: EliminaciÃ³n directa desde la aplicaciÃ³n (Inmediata)</h2>
+    <p>Si aÃºn tienes acceso a la aplicaciÃ³n Nexo en tu dispositivo Android, puedes borrar completamente tu cuenta sin intermediarios en menos de 10 segundos:</p>
+
+    <div class="step-card">
+      <p><span class="step-num">1</span> Abre la aplicaciÃ³n <strong>Nexo</strong> en tu telÃ©fono.</p>
+      <p><span class="step-num">2</span> DirÃ­gete a la pestaÃ±a <strong>Perfil</strong> (icono inferior derecho).</p>
+      <p><span class="step-num">3</span> En la secciÃ³n de <em>Ajustes de Privacidad y Seguridad</em>, toca sobre <strong>"Eliminar cuenta y todos los datos"</strong>.</p>
+      <p><span class="step-num">4</span> Confirma el diÃ¡logo de advertencia. El sistema ejecutarÃ¡ el borrado inmediato en la base de datos de Google Firebase y cerrarÃ¡ tu sesiÃ³n de forma permanente.</p>
+    </div>
+
+    <h2>OpciÃ³n 2: Solicitud por vÃ­a Web / Correo ElectrÃ³nico</h2>
+    <p>Si desinstalaste la aplicaciÃ³n, perdiste acceso a tu dispositivo o prefieres que nuestro equipo gestione la baja:</p>
+
+    <div class="step-card">
+      <p>EnvÃ­a un correo electrÃ³nico a nuestro equipo de privacidad y soporte:</p>
+      <p><strong>Destinatario:</strong> <a href="mailto:contacto@totecxlabs.com">contacto@totecxlabs.com</a></p>
+      <p><strong>Asunto:</strong> Solicitud de EliminaciÃ³n de Cuenta Nexo</p>
+      <p><strong>Cuerpo del mensaje:</strong></p>
+      <ul>
+        <li>Nombre y alias registrado en Nexo.</li>
+        <li>Correo electrÃ³nico exacto de la cuenta de Google con la que iniciaste sesiÃ³n.</li>
+        <li>DeclaraciÃ³n expresa: <em>"Solicito la eliminaciÃ³n permanente de mi cuenta de Nexo y de todos los datos personales asociados."</em></li>
+      </ul>
+      <p>
+        <strong>Plazo de atenciÃ³n:</strong> Procesaremos tu solicitud en un plazo no mayor a <strong>48 horas hÃ¡biles</strong> y te confirmaremos vÃ­a correo electrÃ³nico cuando el proceso haya concluido.
+      </p>
+    </div>
+
+    <h2>Destino de los Datos tras la EliminaciÃ³n</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo de InformaciÃ³n</th>
+          <th>AcciÃ³n Realizada</th>
+          <th>Plazo de RetenciÃ³n</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Perfil PÃºblico</strong> (Alias, edad, intenciones, biografÃ­a, lÃ­mites)</td>
+          <td>Eliminado de Cloud Firestore</td>
+          <td>Inmediato (0 dÃ­as)</td>
+        </tr>
+        <tr>
+          <td><strong>Cuenta de AutenticaciÃ³n</strong> (UID de Firebase, email de Google)</td>
+          <td>Eliminado de Firebase Auth</td>
+          <td>Inmediato</td>
+        </tr>
+        <tr>
+          <td><strong>UbicaciÃ³n difusa y radar</strong></td>
+          <td>Eliminado de los nodos activos</td>
+          <td>Inmediato</td>
+        </tr>
+        <tr>
+          <td><strong>Mensajes y Coincidencias ("Matches")</strong></td>
+          <td>Eliminados de la base de datos</td>
+          <td>Inmediato</td>
+        </tr>
+        <tr>
+          <td><strong>Ajustes locales y cachÃ© en el dispositivo</strong></td>
+          <td>Vaciados por el cierre de sesiÃ³n</td>
+          <td>Inmediato</td>
+        </tr>
+        <tr>
+          <td><strong>Reportes de seguridad recibidos contra la cuenta</strong> (si existieron por acoso o fraude)</td>
+          <td>Conservados en registro de auditorÃ­a desconectado del perfil para seguridad comunitaria y fines legales</td>
+          <td>Hasta 90 dÃ­as, tras lo cual se depuran automÃ¡ticamente</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer">
+      &copy; 2026 TotecXLabs. Documento de cumplimiento de polÃ­ticas de Google Play Store.
+    </div>
+  </div>
+</body>
+</html>
+
